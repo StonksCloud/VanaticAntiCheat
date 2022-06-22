@@ -1,0 +1,92 @@
+{
+  "name": "English",
+  "values": [
+    {
+      "key": "vanatic.command",
+      "lines": [
+        "§7You must be a {suffix}player§7.",
+        "§7You §cdon't §7have access to this {suffix}command§7.",
+        "§7The {suffix}configurations §7were §asuccessfully §7reset.",
+        "§cAn error occurred when resetting the configurations.",
+        "§7Use {prefix}§l/{suffix}Vanatic §7for more help.",
+        "§7Can't find {suffix}locale §7with this name.",
+        "§7List all available {suffix}locales§7:",
+        "§7This {suffix}locale §7is already set.",
+        "§7Changed {suffix}locale §7to {prefix}[#0]§7."
+      ]
+    },
+    {
+      "key": "vanatic.command.usage",
+      "lines": [
+        "§7Use {prefix}§l/{suffix}Vanatic",
+        "§7Use {prefix}§l/{suffix}Vanatic ui",
+        "§7Use {prefix}§l/{suffix}Vanatic reset",
+        "§7Use {prefix}§l/{suffix}Vanatic notify",
+        "§7Use {prefix}§l/{suffix}Vanatic debug §8({suffix}Detection§8)",
+        "§7Use {prefix}§l/{suffix}Vanatic locale §8({suffix}Name§8)"
+      ]
+    },
+    {
+      "key": "vanatic.api",
+      "lines": [
+        "§7Detected ServerVersion: {suffix}[#0]"
+      ]
+    },
+    {
+      "key": "vanatic.adapter.detection",
+      "lines": [
+        "§7Detection {prefix}[#0] §7is now §aenabled§7.",
+        "§7Detection {prefix}[#0] §7is now §cdisabled§7.",
+        "§7Detection {prefix}[#0] §7has been {suffix}registered§7.",
+        "§7Detection {prefix}[#0] §7has been {suffix}unregistered§7."
+      ]
+    },
+    {
+      "key": "vanatic.adapter.notification",
+      "lines": [
+        "§7You will §cno longer §7receive any {suffix}messages§7.",
+        "§7You will §anow §7receive any {suffix}messages§7.",
+        "§7Player {prefix}[#0] §7failed {suffix}[#1]§7. [#2]",
+        "§8([#0][#1]§8) • ([#2][#3]§8)",
+        "§7Name",
+        "§7Ping",
+        "§7TPS",
+        "§7Violation",
+        "§7Detection",
+        "§7World",
+        "§7XYZ",
+        "§7Click here to {suffix}teleport§7.",
+        "§7System is debugging {prefix}[#0] §7at {suffix}[#1]§7.",
+        "§7You will §cno longer §7receive any {suffix}debugs§7.",
+        "§7You will §anow §7receive any {suffix}debugs§7.",
+        "§7Can't find any {suffix}Detection §7with this name."
+      ]
+    },
+    {
+      "key": "vanatic.punish.kick",
+      "lines": [
+        "§8┌§m────────────────§r§8┐",
+        "{prefix}§lV{suffix}§lANATIC",
+        "",
+        "§7You have been kicked from this server.",
+        "§7Reason §8• {prefix}Unfair client modifications",
+        "§7Detection §8• {suffix}[#0]",
+        "",
+        "§8└────────────────§r§8┘"
+      ]
+    },
+    {
+      "key": "vanatic.punish.ban",
+      "lines": [
+        "§8┌§m────────────────§r§8┐",
+        "{prefix}§lV{suffix}§lANATIC",
+        "",
+        "§7You have been banned from this server.",
+        "§7Reason §8• {prefix}Unfair client modifications",
+        "§7Detection §8• {suffix}[#0]",
+        "",
+        "§8└────────────────§r§8┘"
+      ]
+    }
+  ]
+}

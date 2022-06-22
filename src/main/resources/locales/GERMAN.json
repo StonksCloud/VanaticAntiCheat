@@ -1,0 +1,92 @@
+{
+  "name": "German",
+  "values": [
+    {
+      "key": "vanatic.command",
+      "lines": [
+        "§7Du musst ein {suffix}Spieler §7sein.",
+        "§7Du hast darauf §ckeine §7Rechte auf diesen {suffix}Kommando§7.",
+        "§7DIe {suffix}Konfigurationen §7wurden §aerfolgreich §7zurückgesetzt.",
+        "§cEin Fehler ist beim zurücksetzen der Konfigurationen aufgetreten.",
+        "§7Verwende {prefix}§l/{suffix}Vanatic §7für mehr Hilfe.",
+        "§7Es wurde keine {suffix}Sprache §7mit diesem Namen gefunden.",
+        "§7Liste alle verfügbaren {suffix}Sprachen §7auf:",
+        "§7Die {suffix}Sprache §7wird bereits verwendet.",
+        "§7Die {suffix}Sprache §7wurde zu {prefix}[#0] §7geändert."
+      ]
+    },
+    {
+      "key": "vanatic.command.usage",
+      "lines": [
+        "§7Verwende {prefix}§l/{suffix}Vanatic",
+        "§7Verwende {prefix}§l/{suffix}Vanatic ui",
+        "§7Verwende {prefix}§l/{suffix}Vanatic reset",
+        "§7Verwende {prefix}§l/{suffix}Vanatic notify",
+        "§7Verwende {prefix}§l/{suffix}Vanatic debug §8({suffix}Erkennung§8)",
+        "§7Verwende {prefix}§l/{suffix}Vanatic locale §8({suffix}Name§8)"
+      ]
+    },
+    {
+      "key": "vanatic.api",
+      "lines": [
+        "§7Erkannte ServerVersion: {suffix}[#0]"
+      ]
+    },
+    {
+      "key": "vanatic.adapter.detection",
+      "lines": [
+        "§7Erkennung {prefix}[#0] §7ist nun §aaktiviert§7.",
+        "§7Erkennung {prefix}[#0] §7ist nun §cdeaktiviert§7.",
+        "§7Erkennung {prefix}[#0] §7wurde {suffix}registered§7.",
+        "§7Erkennung {prefix}[#0] §7wurde {suffix}unregistered§7."
+      ]
+    },
+    {
+      "key": "vanatic.adapter.notification",
+      "lines": [
+        "§7Du wirst §ckeine {suffix}Nachrichten §7mehr erhalten.",
+        "§7Du wirst §anun {suffix}Nachrichten §7erhalten.",
+        "§7Spieler {prefix}[#0] §7scheiterte {suffix}[#1]§7. [#2]",
+        "§8([#0][#1]§8) • ([#2][#3]§8)",
+        "§7Name",
+        "§7Ping",
+        "§7TPS",
+        "§7Verstöße",
+        "§7Erkennung",
+        "§7Welt",
+        "§7XYZ",
+        "§7Klicke hier, zum {suffix}teleportieren§7.",
+        "§7System debuggt {prefix}[#0] §7bei {suffix}[#1]§7.",
+        "§7Du wirst §ckeine {suffix}Debugs §7mehr erhalten.",
+        "§7Du wirst §anun {suffix}Debugs §7erhalten.",
+        "§7Konnte {suffix}Erkennung §7mit diesem Namen nicht finden."
+      ]
+    },
+    {
+      "key": "vanatic.punish.kick",
+      "lines": [
+        "§8┌§m────────────────§r§8┐",
+        "{prefix}§lV{suffix}§lANATIC",
+        "",
+        "§7You have been kicked from this server.",
+        "§7Reason §8• {prefix}Unfair client modifications",
+        "§7Detection §8• {suffix}[#0]",
+        "",
+        "§8└────────────────§r§8┘"
+      ]
+    },
+    {
+      "key": "vanatic.punish.ban",
+      "lines": [
+        "§8┌§m────────────────§r§8┐",
+        "{prefix}§lV{suffix}§lANATIC",
+        "",
+        "§7Du wurdest von diesem Server geworfen.",
+        "§7Grund §8• {prefix}Unfaire Klientmodifikationen",
+        "§7Erkennung §8• {suffix}[#0]",
+        "",
+        "§8└────────────────§r§8┘"
+      ]
+    }
+  ]
+}

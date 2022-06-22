@@ -1,0 +1,35 @@
+
+#  ___      ___ ________  ________   ________  _________  ___  ________
+# |\  \    /  /|\   __  \|\   ___  \|\   __  \|\___   ___\\  \|\   ____\
+#  \ \  \  /  / | \  \|\  \ \  \\ \  \ \  \|\  \|___ \  \_\ \  \ \  \___|
+#   \ \  \/  / / \ \   __  \ \  \\ \  \ \   __  \   \ \  \ \ \  \ \  \
+#    \ \    / /   \ \  \ \  \ \  \\ \  \ \  \ \  \   \ \  \ \ \  \ \  \____
+#     \ \__/ /     \ \__\ \__\ \__\\ \__\ \__\ \__\   \ \__\ \ \__\ \_______\
+#      \|__|/       \|__|\|__|\|__| \|__|\|__|\|__|    \|__|  \|__|\|_______|
+
+# The information for this plugin.
+name: Vanatic
+description: Test AntiCheat
+website: https://vounty.net
+load: POSTWORLD
+depend:
+  - packetevents
+
+# The path to the plugin instance.
+main: net.vounty.vanatic.VanaticPlugin
+
+# The author of this plugin.
+author: VountyNetwork
+
+# The (API)-Version of this plugin.
+version: 1.0.0
+api-version: 1.13
+
+# All commands of this plugin.
+commands:
+  vanatic:
+    aliases:
+      - anticheat
+      - ac
+      - vc
+    description: Manage the Vanatic AntiCheat.
